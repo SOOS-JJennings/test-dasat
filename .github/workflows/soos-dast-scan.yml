@@ -42,6 +42,7 @@ jobs:
           scan_mode: "baseline"
           target_url: "https://brokencrystals.com/"
           output_format: "sarif"
+          level: "INFO"
       - name: Upload SOOS DAST SARIF Report
         uses: github/codeql-action/upload-sarif@v2
         with:
